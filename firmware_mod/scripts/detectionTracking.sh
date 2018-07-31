@@ -93,11 +93,11 @@ backtoOrigin() {
 
 # If no argument that's mean the camera need to return to its original position
 # the 5th arguments is '&'
-if [ $# -ne 5 ]
-then
-    backtoOrigin
-    return 0;
-fi
+#if [ $# -ne 5 ]
+#then
+#    backtoOrigin
+#    return 0;
+#fi
 
 # Now save the "origin" values of the camera
 # Save it to tmp as when the camera reboots the camera are set to 0
